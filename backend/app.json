@@ -1,0 +1,10 @@
+{
+  "apps": [
+    {
+      "name": "bookstore",
+      "script": "build/api.bundle.js",
+      "instances": "max",
+      "exec_mode": "cluster"
+    }
+  ]
+}
